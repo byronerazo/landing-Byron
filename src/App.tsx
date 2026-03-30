@@ -123,36 +123,7 @@ function Hero() {
 
             {/* Form Card */}
             <div className="bg-[#150a1f]/80 backdrop-blur-sm border border-[#2d1b4e] rounded-3xl p-6 md:p-8 shadow-2xl">
-              <form className="space-y-5">
-                <div>
-                  <label htmlFor="email" className="block text-xs font-medium text-gray-400 uppercase tracking-wider mb-2">Email Profesional</label>
-                  <input 
-                    type="email" 
-                    id="email" 
-                    placeholder="tu@email.com" 
-                    className="w-full bg-[#0b0510] border border-[#2d1b4e] rounded-xl px-4 py-3.5 text-white placeholder-gray-600 focus:outline-none focus:border-fuchsia-500 focus:ring-1 focus:ring-fuchsia-500 transition-colors"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="whatsapp" className="block text-xs font-medium text-gray-400 uppercase tracking-wider mb-2">WhatsApp</label>
-                  <input 
-                    type="tel" 
-                    id="whatsapp" 
-                    placeholder="+593 ..." 
-                    className="w-full bg-[#0b0510] border border-[#2d1b4e] rounded-xl px-4 py-3.5 text-white placeholder-gray-600 focus:outline-none focus:border-fuchsia-500 focus:ring-1 focus:ring-fuchsia-500 transition-colors"
-                  />
-                </div>
-                <button 
-                  type="button" 
-                  className="w-full flex items-center justify-center gap-2 bg-gradient-to-r from-fuchsia-500 to-orange-400 hover:from-fuchsia-400 hover:to-orange-300 text-white font-semibold rounded-xl px-4 py-4 transition-all transform hover:scale-[1.02] active:scale-[0.98] shadow-lg shadow-fuchsia-500/25"
-                >
-                  Comenzar mi Transformación
-                  <ArrowRight className="w-5 h-5" />
-                </button>
-                <p className="text-center text-[10px] text-gray-500 uppercase tracking-widest mt-4">
-                  Únete a más de 500+ emprendedores digitales.
-                </p>
-              </form>
+              <div data-active id="whatapp-people-widget-e12ce1cd-db44-4955-b9a4-423c11f609fe"></div>
             </div>
           </div>
 
