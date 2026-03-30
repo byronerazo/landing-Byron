@@ -61,9 +61,9 @@ function Navbar() {
           </div>
           
           <div className="hidden md:block">
-            <button href="https://go.hotmart.com/G104692319F" className="bg-transparent border border-white/20 hover:bg-white/5 text-white px-6 py-2.5 rounded-full text-sm font-medium transition-all animate-soft-pulse">
+            <a href="https://go.hotmart.com/G104692319F" className="bg-transparent border border-white/20 hover:bg-white/5 text-white px-6 py-2.5 rounded-full text-sm font-medium transition-all animate-soft-pulse">
               Míranos en Vivo
-            </button>
+            </a>
           </div>
 
           {/* Mobile menu button */}
@@ -85,9 +85,9 @@ function Navbar() {
             <a href="#" className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Mentoría</a>
             <a href="#" className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Cursos</a>
             <a href="#" className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Blog</a>
-            <button href="https://go.hotmart.com/G104692319F" className="w-full text-left mt-4 bg-transparent border border-white/20 hover:bg-white/5 text-white px-3 py-2 rounded-md text-base font-medium transition-all animate-soft-pulse">
+            <a href="https://go.hotmart.com/G104692319F" className="w-full text-left mt-4 bg-transparent border border-white/20 hover:bg-white/5 text-white px-3 py-2 rounded-md text-base font-medium transition-all animate-soft-pulse">
               Míranos en Vivo
-            </button>
+            </a>
           </div>
         </div>
       )}
