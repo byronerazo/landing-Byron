@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   Rocket,
   Store,
@@ -20,6 +20,12 @@ import {
 } from 'lucide-react';
 
 export default function App() {
+  useEffect(() => {
+  const script = document.createElement("script");
+  script.src = "https://widget.tochat.be/bundle.js?key=3f56fde3-08e2-4520-b534-2910bb54a8fc";
+  script.async = true;
+  document.body.appendChild(script);
+}, []);
   return (
     <div className="min-h-screen bg-[#0b0510] text-white font-sans selection:bg-fuchsia-500/30">
       <Navbar />
@@ -123,7 +129,9 @@ function Hero() {
 
             {/* Form Card */}
             <div className="bg-[#150a1f]/80 backdrop-blur-sm border border-[#2d1b4e] rounded-3xl p-6 md:p-8 shadow-2xl">
-              <div data-active id="whatapp-people-widget-e12ce1cd-db44-4955-b9a4-423c11f609fe"></div>
+              <div style={{ minHeight: "400px" }}>
+  <div data-active id="whatapp-people-widget-e12ce1cd-db44-4955-b9a4-423c11f609fe"></div>
+</div>
             </div>
           </div>
 
@@ -505,7 +513,9 @@ function BottomCTA() {
             </p>
             
             <form className="flex flex-col sm:flex-row gap-4 max-w-xl mx-auto">
-              <div data-active id="whatapp-people-widget-e12ce1cd-db44-4955-b9a4-423c11f609fe"></div>
+              <div style={{ minHeight: "400px" }}>
+  <div data-active id="whatapp-people-widget-e12ce1cd-db44-4955-b9a4-423c11f609fe"></div>
+</div>
             </form>
           </div>
         </div>
