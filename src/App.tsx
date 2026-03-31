@@ -505,17 +505,7 @@ function BottomCTA() {
             </p>
             
             <form className="flex flex-col sm:flex-row gap-4 max-w-xl mx-auto">
-              <input 
-                type="email" 
-                placeholder="Tu mejor Email" 
-                className="flex-grow bg-[#0b0510] border border-[#2d1b4e] rounded-full px-6 py-4 text-white placeholder-gray-500 focus:outline-none focus:border-fuchsia-500 focus:ring-1 focus:ring-fuchsia-500 transition-colors"
-              />
-              <button 
-                type="button" 
-                className="whitespace-nowrap bg-gradient-to-r from-fuchsia-500 to-orange-400 hover:from-fuchsia-400 hover:to-orange-300 text-white font-bold rounded-full px-8 py-4 transition-all transform hover:scale-[1.02] active:scale-[0.98] shadow-lg shadow-fuchsia-500/20"
-              >
-                ¡QUIERO EMPEZAR YA!
-              </button>
+              <div data-active id="whatapp-people-widget-e12ce1cd-db44-4955-b9a4-423c11f609fe"></div>
             </form>
           </div>
         </div>
